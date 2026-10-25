@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,500..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wdth,wght@75..100,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gurmukhi:wght@400..700&display=swap');
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+@import "./styles/tokens.css";
+
+html, body, #root {
+  margin: 0;
+  min-height: 100dvh;
+}
+
+body {
+  background: #0b1220;
+}
+
+* {
+  box-sizing: border-box;
+}
